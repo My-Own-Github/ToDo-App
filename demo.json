@@ -1,0 +1,6 @@
+[{
+    "id": "ctg-1",
+    "name": "Fruits and Vegetables",
+    "iKey": "blobkey",
+    "value": "[{\"id\":\"ctg-1A\",\"name\":\"Fresh Vegetables\",\"iKey\":\"Blobkey\", \"value\":[{\"id\":\"ctg-1A-1\",\"name\":\"Potato, Onions and Tomatoes\",\"iKey\":\"Blobkey\"},{\"id\":\"ctg-1A-2\",\"name\":\"Beans, Brinjal\",\"iKey\":\"Blobkey\"},{\"id\":\"ctg-1A-3\",\"name\":\"Root Vegetables\",\"iKey\":\"Blobkey\"},{\"id\":\"ctg-1A-4\",\"name\":\"Cucumber, Capsicum\",\"iKey\":\"Blobkey\"}]},{\"id\":\"ctg-1B\",\"name\":\"Fresh Fruits\",\"iKey\":\"Blobkey\", \"value\":[{\"id\":\"ctg-1B-1\",\"name\":\"Mangoes\",\"iKey\":\"Blobkey\"},{\"id\":\"ctg-1B-2\",\"name\":\"Seasonal\",\"iKey\":\"Blobkey\"}]},{\"id\":\"ctg-1C\",\"name\":\"Exotic Fruits and Veggies\",\"iKey\":\"Blobkey\"},{\"id\":\"ctg-1D\",\"name\":\"Organics\",\"iKey\":\"Blobkey\"}]"
+  }]

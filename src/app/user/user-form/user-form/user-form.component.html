@@ -1,0 +1,26 @@
+<app-nav-bar></app-nav-bar>
+<div class="container">
+  <div class="card border-dark shadow text-center mt-3 text-center mt-3" style="width: 18rem;">
+    <form [formGroup]="userForm" (ngSubmit)="saveUserData(userForm)" class="mt-3">
+      <div>
+        <input formControlName="firstName" placeholder="FirstName">
+      </div>
+      <br />
+      <div>
+        <input formControlName="lastName" placeholder="LastName">
+      </div>
+      <br />
+      <div>
+        <input formControlName="email" placeholder="email">
+      </div>
+      <br />
+      <div>
+        <input formControlName="mobileNo" placeholder="MobileNo">
+      </div>
+      <br />
+      <div>
+        <button type="submit" class="btn btn-primary mr-2 mb-2"> Save </button>
+        <button type="submit" class="btn btn-secondary mb-2" (click)="goBack()"> Cancel </button>
+      </div>
+    </form>
+  </div>

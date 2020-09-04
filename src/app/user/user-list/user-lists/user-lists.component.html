@@ -1,0 +1,18 @@
+<ul class="list-group">
+  <li class="list-group-item d-flex row" *ngFor="let user of userList">
+    <div class="col-1 pl-0 pr-0">
+      <img [src]="setUserImage(user)" alt='Avtar' class="avatar" />
+    </div>
+    <div class="col-9 text-left">
+      <span class="align-middle">{{user.firstName}} {{user.lastName}}</span>
+    </div>
+    <div class="col-1 text-right pr-0">
+      <button class="btn badge-primary btn-sm" style="cursor: pointer;" (click)="updateUserData(user)"> Edit</button>
+    </div>
+    <div class="col-1 text-right pr-2">
+      <button class="btn btn-danger btn-sm" style="cursor: pointer;" (click)="removedUser(user)"> Delete</button>
+    </div>
+    <!-- </div> -->
+  </li>
+</ul>
+<!-- <i class="material-icons md-24">delete_forever</i> -->

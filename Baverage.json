@@ -1,0 +1,7 @@
+[
+  {
+    "id": "ctg-4",
+    "name": "Beverages",
+    "value": "[ {\"id\":\"ctg-4A\", \"name\":\"Water\", \"value\":[ {\"id\":\"ctg-4A-1\", \"name\":\"Packaged Water\" }, {\"id\":\"ctg-4A-2\", \"name\":\"Spring Water\" }, {\"id\":\"ctg-4A-3\", \"name\":\"Flavoured Water\"}]},{\"id\":\"ctg-4B\",\"name\":\"Coffee\",\"value\":[{\"id\":\"ctg-4B-1\",\"name\":\"Instant Coffee\"},{\"id\":\"ctg-4B-2\",\"name\":\"Ground Coffee\"}]},{\"id\":\"ctg-4C\",\"name\":\"Energy & Soft Drinks\",\"value\":[{\"id\":\"ctg-4C-1\",\"name\":\"Soda & Cocktail Mix\"},{\"id\":\"ctg-4C-2\",\"name\":\"Cold Drinks\"},{\"id\":\"ctg-4C-3\",\"name\":\"Non Alcoholic Drinks\"},{\"id\":\"ctg-4C-4\",\"name\":\"Sports & Energy Drinks\"}]},{\"id\":\"ctg-4D\",\"name\":\"Tea\",\"value\":[{\"id\":\"ctg-4D-1\",\"name\":\"Leaf & Dust Tea\"},{\"id\":\"ctg-4D-2\",\"name\":\"Exotic & Flavoured Tea\"},{\"id\":\"ctg-4D-3\",\"name\":\"Green Tea\"},{\"id\":\"ctg-4D-4\",\"name\":\"Tea Bags\"}]},{\"id\":\"ctg-4E\",\"name\":\"Health Drink, Supplement\",\"value\":[{\"id\":\"ctg-4E-1\",\"name\":\"Kids(5+Yrs)\"},{\"id\":\"ctg-4E-2\",\"name\":\"Diabetic Drinks\"},{\"id\":\"ctg-4E-3\",\"name\":\"Children (2-5Yrs)\"},{\"id\":\"ctg-4E-4\",\"name\":\"Men & Women\"},{\"id\":\"ctg-4E-5\",\"name\":\"Glucose Powder, Tablets\"}]},{\"id\":\"ctg-4F\",\"name\":\"Fruit Juices & Drinks\",\"value\":[{\"id\":\"ctg-4F-1\",\"name\":\"Unsweetened, Cold Press\"},{\"id\":\"ctg-4F-2\",\"name\":\"Juices\"},{\"id\":\"ctg-4F-3\",\"name\":\"Syrups & Concentrates\"}]}]"
+  }
+]

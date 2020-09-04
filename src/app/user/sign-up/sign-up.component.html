@@ -1,0 +1,44 @@
+<div class="container mt-3">
+  <div class="card border-dark shadow text-center mx-auto" style="width: 18rem;">
+    <div class="card-header text-white bg-secondary">
+      <h2>User SignUp</h2>
+    </div>
+    <div class="card-body">
+      <form #signUpForm="ngForm" (ngSubmit)="signUpForm.valid && onSubmit(signUpForm)" class="pt-2 pb-2">
+        <div>
+          <input type="text" #fullName="ngModel" [(ngModel)]="userService.selectedUser.fullName" name="fullName"
+            placeholder="FullName" required>
+          <div *ngIf="signUpForm.submitted && !fullName.valid">
+            <label style="color: red;"> This FullName is required</label>
+          </div>
+        </div>
+        <br />
+        <div>
+          <input type="text" #email="ngModel" [(ngModel)]="userService.selectedUser.email" name="email"
+            placeholder="Email" required>
+          <div *ngIf="signUpForm.submitted && !email.valid">
+            <label style="color: red;"> This Email is required</label>
+          </div>
+        </div>
+        <br />
+        <div>
+          <input type="password" #password="ngModel" [(ngModel)]="userService.selectedUser.password" name="password"
+            placeholder="Password" required>
+          <div *ngIf="signUpForm.submitted && !password.valid">
+            <label style="color: red;"> This Password is required</label>
+          </div>
+        </div>
+        <br />
+        <div>
+          <button type="submit" class="btn btn-primary btn-lg"> Sign Up </button>
+        </div>
+      </form>
+    </div>
+    <div class="success" *ngIf="showSuccessMessage">
+      Save Successfully
+    </div>
+    <div class="alert" *ngIf="serverSideMessages">
+      {{serverSideMessages}}
+    </div>
+  </div>
+</div>

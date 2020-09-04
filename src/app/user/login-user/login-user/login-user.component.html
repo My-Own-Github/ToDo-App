@@ -1,0 +1,30 @@
+<div class="container mt-3">
+  <div class="card text-center mx-auto" style="width: 18rem;">
+    <div class="card-header text-white bg-secondary">
+      <h2>Login User</h2>
+    </div>
+    <div class="card-body">
+      <form #loginForm="ngForm" (ngSubmit)="loginForm.valid && onSubmit(loginForm)" class="pt-2 pb-2">
+        <div>
+          <input type="text" #email="ngModel" [(ngModel)]="userService.loginUser.email" name="email"
+            placeholder="Enter Email" required>
+        </div>
+        <br />
+        <div>
+          <input type="password" #password="ngModel" [(ngModel)]="userService.loginUser.password" name="password"
+            placeholder="Enter Password" required>
+        </div>
+        <br />
+        <div>
+          <button type="submit" class="btn btn-success btn-lg"> Login </button>
+        </div>
+      </form>
+      <hr class="w-75 mx-auto">
+      <p class="message">Already registered? <a href="signUp">Sign In</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container">
+
+</div> -->
